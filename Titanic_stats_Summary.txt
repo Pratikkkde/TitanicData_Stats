@@ -1,0 +1,66 @@
+
+Statistics for Age:
+Mean: 29.644662921348313
+Median: 28.0
+Mode: 24.0
+Standard Deviation: 14.487814352913084
+Variance: 209.89676472447437
+Minimum: 1.0
+Maximum: 80.0
+Non-null Count: 712
+
+Statistics for Family:
+Mean: 0.9466292134831461
+Median: 0.0
+Mode: 0
+Standard Deviation: 1.4850269618811245
+Variance: 2.2053050775138825
+Minimum: 0
+Maximum: 7
+Non-null Count: 712
+
+Statistics for Fare:
+Mean: 34.567251404494385
+Median: 15.64585
+Mode: 13.0
+Standard Deviation: 52.938648174710885
+Variance: 2802.50047056582
+Minimum: 0.0
+Maximum: 512.3292
+Non-null Count: 712
+
+          mean  median    std      var  min     max  count  mode
+Age     29.64   28.00  14.49   209.90  1.0   80.00  712.0  24.0
+Family   0.95    0.00   1.49     2.21  0.0    7.00  712.0   0.0
+Fare    34.57   15.65  52.94  2802.50  0.0  512.33  712.0  13.0
+
+ Null values in each column:
+Survived    0
+Pclass      0
+Gender      0
+Age         0
+Family      0
+Fare        0
+Embarked    0
+dtype: int64
+Survived     object
+Pclass       object
+Gender       object
+Age         float64
+Family        int64
+Fare        float64
+Embarked     object
+dtype: object
+Survived
+No     424
+Yes    288
+Name: count, dtype: int64
+Gender
+Male      453
+Female    259
+Name: count, dtype: int64
+Pclass
+Third class     355
+First class     184
+Second Class    173
+Name: count, dtype: int64
